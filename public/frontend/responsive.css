@@ -1,0 +1,42 @@
+@media only screen and (max-width:585px) {
+    #ContactUs .formBox{
+        margin: 10px 0 !important;
+    }
+    #ContactUs .socialBox .socialContent a{
+        font-size: 16px !important;
+    }
+    #ContactUs .socialBox{
+        width: 100% !important;
+        margin: 10px auto !important;
+    }
+    #ContactUs .socBox a {
+    font-size: 1rem !important;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 5px 10px !important;
+    border-radius: 10px;
+    transition: .4s;
+    }
+    .navbar-nav {
+        display: flex;
+        justify-content: flex-start !important;
+        align-items: flex-start !important;
+        gap: 15px;
+        width: 100%;
+    }
+    .navbar-light .navbar-toggler {
+        color: #fff !important;
+        border-color: #ffff !important;
+    }
+    #TextContent .col-lg-4 {
+        border: none !important;
+    }
+        .navbar-nav {
+            gap: 10px !important;
+            margin: 10px 0 !important;
+        }
+        .navbar-nav .nav-item{
+            border-bottom: 2px dashed #fff;
+            width: 100%;     
+        }
+}
